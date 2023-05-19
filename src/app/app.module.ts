@@ -9,6 +9,7 @@ import { SpecialButtonDirective } from './directives/special-button/special-butt
 import { ChopDescrPipe } from './pipes/chop-description/chop-descr.pipe';
 import { CurrentAgePipe } from './pipes/current-age/current-age.pipe';
 import { FirstUpperPipe } from './pipes/first-upper/first-upper.pipe';
+import { UnlessDirective } from './directives/unless/unless.directive';
 
 
 
@@ -20,7 +21,8 @@ import { FirstUpperPipe } from './pipes/first-upper/first-upper.pipe';
     FirstUpperPipe,
     CurrentAgePipe,
     ChopDescrPipe,
-    SpecialButtonDirective
+    SpecialButtonDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
